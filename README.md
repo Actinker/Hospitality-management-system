@@ -101,10 +101,6 @@ yarn lint
 
 - API base URL is set in [`src/config.js`](src/config.js).
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 *Made with ❤️
