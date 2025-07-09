@@ -1,0 +1,110 @@
+/* Design Tokens */
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary: #64748b;
+  --accent: #f59e0b;
+  --background: #ffffff;
+  --surface: #f8fafc;
+  --text: #1e293b;
+  --text-light: #64748b;
+  --error: #ef4444;
+  --success: #22c55e;
+  --border: #e2e8f0;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+/* Common Components */
+.card {
+  @apply bg-white rounded-lg shadow p-6;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary-dark;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-secondary/90;
+}
+
+.btn-outline {
+  @apply border border-primary text-primary hover:bg-primary hover:text-white;
+}
+
+.input {
+  @apply w-full px-4 py-2 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary/50;
+}
+
+.label {
+  @apply block text-sm font-medium text-text-light mb-1;
+}
+
+.section {
+  @apply py-12 px-4 sm:px-6 lg:px-8;
+}
+
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
+.heading-1 {
+  @apply text-4xl font-bold text-text mb-6;
+}
+
+.heading-2 {
+  @apply text-3xl font-semibold text-text mb-4;
+}
+
+.heading-3 {
+  @apply text-2xl font-semibold text-text mb-3;
+}
+
+.text-body {
+  @apply text-text-light leading-relaxed;
+}
+
+.grid-responsive {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}
+
+.flex-between {
+  @apply flex items-center justify-between;
+}
+
+/* Animations */
+.fade-in {
+  @apply transition-opacity duration-300 ease-in-out;
+}
+
+.slide-up {
+  @apply transition-transform duration-300 ease-in-out;
+}
+
+/* Responsive Utilities */
+@media (max-width: 640px) {
+  .container {
+    @apply px-4;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    @apply px-6;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    @apply px-8;
+  }
+} 

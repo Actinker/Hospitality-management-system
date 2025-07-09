@@ -1,0 +1,28 @@
+# ✅ Node modules — always ignore this
+node_modules/
+
+# ✅ Vite/Tailwind/React build outputs
+dist/
+
+# ✅ System files
+.DS_Store
+Thumbs.db
+
+# ✅ Logs
+*.log
+
+# ✅ Environment variables (if you use them)
+.env
+.env.*
+
+# ✅ IDE/editor specific (optional but helpful)
+.vscode/
+.idea/
+
+# ✅ MacOS or Linux temporary files
+*.swp
+*~
+
+# ✅ Optional: lock files
+package-lock.json
+yarn.lock
