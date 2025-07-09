@@ -1,32 +1,41 @@
-# Continental Hospitality Management
+# 🌐 Continental Hospitality Management
 
-A modern hospitality management web application built with React, Vite, and Tailwind CSS. This project provides features for hotel/restaurant management, including room bookings, staff management, event scheduling, and more.
+A modern hospitality management web application built using **React**, **Vite**, and **Tailwind CSS**. This project streamlines hotel and restaurant operations with features like room bookings, staff management, maintenance tracking, and more.
 
-## Features
+> 🚀 **Live Demo:**  
+👉 [https://hospitality-management-system-3z1z-4ceipl064-actinkers-projects.vercel.app](https://hospitality-management-system-3z1z-4ceipl064-actinkers-projects.vercel.app)
 
-- Room booking and management
-- Restaurant order management
-- Staff and employee directory
-- Event scheduling
-- Maintenance tracking
-- Responsive UI with Tailwind CSS
-- Animated page transitions with Framer Motion
+> ⚠️ **Note:** This deployment currently showcases **frontend only**. Backend APIs are expected to be hosted separately (e.g., Flask via ngrok or cloud services).
 
-## Tech Stack
+---
 
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [Swiper.js](https://swiperjs.com/)
-- [Heroicons](https://heroicons.com/)
+## ✨ Features
 
-## Getting Started
+- ✅ Room booking and admin view
+- 🍽️ Restaurant order and kitchen interface
+- 🧑‍💼 Staff and employee directory
+- 📅 Event scheduler
+- 🛠️ Maintenance issue tracking
+- 🎨 Tailwind-styled responsive design
+- 🌙 Animated page transitions with Framer Motion
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS
+- **UI/UX:** Framer Motion, Swiper.js, Heroicons
+- **Routing:** React Router DOM
+
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Node.js](https://nodejs.org/en/) (v16+)
+- npm or yarn
 
 ### Installation
 
